@@ -1,14 +1,12 @@
 import React from 'react';
-import ListenerCards from './components/ListenerCards';
 import TrainerCard from './components/TrainerCard'; 
-import MusicArtists from './components/MusicArtists'; 
+import MusicBio from './components/MusicBio';
 
 function App() {
   return (
-    <main>
-      <h1>Personal Album list</h1>
-      <TrainerCard />
-      <MusicArtists />
+    <main style={{background: "black"}}>
+      <h1 style={{textAlign: "center", color: "white"}}>Music App</h1>
+      <MusicBio />
     </main>
   );
 }

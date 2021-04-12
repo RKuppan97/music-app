@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 
 const TrainerCard = () => {
-  const [ trainerName, setTrainerName ] = useState('Michael');
-  const [ pokemonCaught, setPokemonCaught ] = useState(2)
+  const [ listenerName, setListenerName ] = useState('Ryan');
+  const [ totalAlbums, setTotalAlbums ] = useState(3)
 
 
-  const increasePokemonCount = () => setPokemonCaught(pokemonCaught + 1)
+  const increaseTotalAlbumCount = () => setTotalAlbums(totalAlbums + 1)
 
   return (
     <div>
-      <h2>{trainerName}</h2>
-      <h3>Pokemon Trainer</h3>
-      <h3>Kanto Region</h3>
-      <h3>Pokemon Caught: {pokemonCaught}</h3>
-      <button onClick={increasePokemonCount}>
-        I caught another one!
+      <h2>{listenerName}</h2>
+      <h3>Listener Profile</h3>
+      <h3>Country: England</h3>
+      <h3>Albums Listened: {totalAlbums}</h3>
+      <button onClick={increaseTotalAlbumCount}>
+        I listened to another one!
       </button>
     </div>
   );

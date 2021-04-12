@@ -1,15 +1,18 @@
 import React from 'react';
-import TrainerCard from './components/TrainerCard';
-import PokemonCards from './components/PokemonCards';
+import ListenerCards from './components/ListenerCards';
+import TrainerCard from './components/TrainerCard'; 
+import MusicArtists from './components/MusicArtists'; 
 
 function App() {
   return (
     <main>
-      <h1>Personal Pokédex</h1>
+      <h1>Personal Album list</h1>
       <TrainerCard />
-      <PokemonCards />
+      <MusicArtists />
     </main>
   );
 }
+
+
 
 export default App;

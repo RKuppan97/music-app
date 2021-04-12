@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const PokemonCards = () => {
+const ListenerCards = () => {
   const [pokemon, setPokemon] = useState([
     { name: 'Bulbasaur', img: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" },
     { name: 'Charmander', img: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" },
@@ -29,4 +29,4 @@ const PokemonCards = () => {
   );
 };
 
-export default PokemonCards;
+export default ListenerCards;
